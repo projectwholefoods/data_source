@@ -6,9 +6,21 @@
 
 ## `data_source`
 
-Nutrition-specific and cost-related datapoints provided to synthesize the final insights.
+Nutrition-specific and cost-related datapoints provided to synthesize the final insights. Here are required implementation steps:
 
-Processes can include manual cross-analysis or an LM model of choice (or dedicated "mixture-of-experts", eg. cross-examining the input data from different specialization standpoints - nutritionalist, personal trainer, etc.) with the addition of `RAG` data retrieval for precise clinical alignment[[0]](#0)
+### 1. Structure 
+
+Intermediate format is arbitrary, but should follow the structure of the pathway, so that it's easily tracable "back-to-back" from insight to original clues.
+
+>We highly recommend you **do not** use third-party, online-sourced providers, as this can lead to imprecise data provision and/or outdated clues. If you rely on a reliable third-party provider and are fine with doing so, you can.
+>
+>Please refer to [wholefoods-public](http://google.com) for implementation details.
+
+### 2. Processing / Analysis
+
+Processes can include manual cross-analysis or an LM model of choice (or dedicated "mixture-of-experts", eg. cross-examining the input data from different specialization standpoints - nutritionalist, personal trainer, etc.) with the addition of `RAG` data retrieval for precise clinical alignment[[0]](#0).
+
+
 
 ## Additional resources
 
