@@ -28,6 +28,8 @@ Processes can include manual cross-analysis or an LM model of choice (or dedicat
 - For original source, we also include direct backing of the data sources. Only for referencial[[1]](#1) use: [sources-public](http://google.com)
 - For a recommended contextual input example (version `1.0`: textual prompts and files structure) visit: [wholefoods-public](http://google.com)
 
+
+## Footnotes
 >
 ><a id="0">[0]</a> Please note, medical use-case is currently prohibited and unwarranted. For personal use-case, always consult your doctor before proceeding with medical-related queries.
 >
