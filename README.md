@@ -14,7 +14,7 @@ Intermediate format is arbitrary, but should follow the structure of the pathway
 
 >We highly recommend you **do not** use third-party, online-sourced providers, as this can lead to imprecise data provision and/or outdated clues. If you rely on a reliable third-party provider and are fine with doing so, you can.
 >
->Please refer to [wholefoods-public](http://google.com) for implementation details.
+>Please refer to [wholefoods](https://github.com/projectwholefoods/wholefoods) for implementation details.
 
 ### 2. Processing / Analysis
 
@@ -24,9 +24,9 @@ Processes can include manual cross-analysis or an LM model of choice (or dedicat
 
 ## Additional resources
 
-- For the technical request structure as well as the `POST` structure, please refer to following repo: [research-public](http://google.com)
-- For original source, we also include direct backing of the data sources. Only for referencial[[1]](#1) use: [sources-public](http://google.com)
-- For a recommended contextual input example (version `1.0`: textual prompts and files structure) visit: [wholefoods-public](http://google.com)
+- For the technical request structure as well as the `POST` structure, please refer to following repo: [research-public](https://github.com/projectwholefoods/research-public)
+- For original source, we also include direct backing of the data sources. Only for referencial[[1]](#1) use: [sources-public](https://github.com/projectwholefoods/sources-public)
+- For a recommended contextual input example (version `1.0`: textual prompts and files structure) visit: [wholefoods](https://github.com/projectwholefoods/wholefoods)
 
 
 ## Footnotes
